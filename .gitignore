@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Raw datasets (never commit)
+data/nuscenes/
+data/coco/
+data/roadanomaly/
+data/carla_generated/
+*.tar
+*.tgz
+*.zip
+
+# Model weights & extracted features
+*.pth
+*.pt
+*.npy
+*.npz
+work_dirs/
+outputs/
+
+# Local path overrides
+data/dataset_paths.local.yaml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

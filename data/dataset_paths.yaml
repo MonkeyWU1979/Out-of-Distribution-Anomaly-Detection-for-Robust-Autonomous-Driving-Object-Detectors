@@ -1,0 +1,8 @@
+# Local dataset path template.
+# Copy to dataset_paths.local.yaml (git-ignored) and edit for your machine.
+# Never commit personal absolute paths to main.
+
+nuscenes_root: "D:/data/nuscenes"          # contains samples/, sweeps/, annotations/
+coco_root: "D:/data/coco"                  # contains val2017/, annotations/
+roadanomaly_root: "D:/data/roadanomaly"    # SegmentMeIfYouCan RoadAnomaly images
+carla_output_root: "./data/carla_generated"
